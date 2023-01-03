@@ -41,11 +41,18 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.4.0</muleVersion>
+						<username>${username}</username>
+						<password>${password}</password>
+						<workers>${workers}</workers>
+						<workerType>${worker.type}</workerType>
+						<environment>${environment}</environment>
+						<muleVersion>${mule.version}</muleVersion>
+						<applicationName>${application.name}</applicationName>
+						<!-- <muleVersion>4.4.0</muleVersion>
 						<username>keke-4</username>
 						<password>keke@#TAG5454</password>
 						<environment>Sandbox</environment>
-						<applicationName>keke-app-1</applicationName>
+						<applicationName>keke-app-1</applicationName> -->
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
