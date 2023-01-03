@@ -17,7 +17,7 @@ output application/json
 ---
 {
 	"time": now(),
-	"msg": "App deployed via Jenkins Successfuly!"
+	"msg": "App-2 deployed via Jenkins Successfuly!"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
